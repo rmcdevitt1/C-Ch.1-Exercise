@@ -12,7 +12,7 @@ namespace Numeric_Types
             Console.WriteLine("What is the width of your rectangle?");
             int width = int.Parse(Console.ReadLine());
 
-            //Console.WriteLine("The area of you rectangle is: " + length*width);
+            Console.WriteLine("The area of you rectangle is: " + length*width);
 
         }
     }
