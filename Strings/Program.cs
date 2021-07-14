@@ -19,6 +19,14 @@ namespace Strings
             }
 
             Console.WriteLine(result);
+            Console.WriteLine(answer.Length);
+            Console.WriteLine(tester);
+
+            string[] sentenceArr = sentence.Split(answer);
+
+            string newSentence = sentenceArr[0] + sentenceArr[1];
+
+            Console.WriteLine(newSentence);
 
         }
     }
